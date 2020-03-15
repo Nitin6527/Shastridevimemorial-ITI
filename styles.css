@@ -1,0 +1,156 @@
+p,li{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+.prmessage{
+  color: #216353;
+  font-family: 'Bellota Text', cursive;
+}
+
+.midcontainer{
+  padding: 10px 0 50px 0;
+  background-color: #323232;
+  height: 200px;
+}
+#gallery{
+  padding:50px;
+}
+
+.Allheading{
+  height: 100px;
+  color:aliceblue;
+  padding: 30px;
+  background-color: #4b8e8d;
+}
+
+.about{
+  
+}
+.btn:hover{
+  color: #111a1f;
+}
+
+.nav-link{
+  color: aliceblue;
+}
+.footer{
+  background-color: #111a1f;
+  color: #94d3ac;
+}
+.anchor-tag{
+  color: azure;
+  text-decoration: none;
+}
+.anchor-tag:hover{
+  color: skyblue;
+}
+
+.navbar{
+	height: 5rem;
+}
+.dropdown-menu{
+	padding: 0 0 0 50px;
+}
+.itilogo{
+	height: 60px;
+}
+.navbar-brand{
+	margin: 0 0 0 20px;
+	font-family: 'Arvo', serif;
+	height: 2rem;
+}
+
+/*===== navbar hoverEffect start =====*/
+nav a {
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: aliceblue;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 200;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 14px;
+	margin-right:1.5rem;
+}
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+/* Effect 4: bottom border enlarge */
+.cl-effect-4 a {
+	padding: 10px 0 10px 0;
+}
+.cl-effect-4 a::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: skyblue;;
+	content: '';
+	opacity: 0;
+	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+	transition: height 0.3s, opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.cl-effect-4 a:hover::after,
+.cl-effect-4 a:focus::after {
+	height: 2px;
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+.container > section {
+	margin: 0 auto;
+	padding: 5em 3em;
+	text-align: center;
+}
+
+/*===== Navbar hovereffect end ====== */
+
+
+
+.d-block{
+  height: 650px;
+}
+.mainText{
+  font-size: 80px;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 100px;
+  color: aliceblue;
+  z-index: 2;
+}
+.heading{
+  position: absolute;
+  text-align: center;
+ background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #dee0d9;
+  height: 700px;
+  padding: 5%;
+  width: 100%;
+  z-index: 1;
+}
+
+.card{
+  text-align: center;
+  width: 29rem;
+}
+.card-img-top{
+  height: 250px;
+  width: 200px;
+}
