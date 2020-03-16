@@ -52,6 +52,7 @@ h1,h2,h3,h4,h5,h6{
 .anchor-tag{
   color: azure;
   text-decoration: none;
+
 }
 .anchor-tag:hover{
   color: skyblue;
@@ -65,6 +66,25 @@ h1,h2,h3,h4,h5,h6{
 }
 .itilogo{
 	height: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .itilogo{
+    height: 30px;
+  }
+  .brand{
+    font-size: 1rem;
+  }
+  .anchor-tag{
+    text-align: center;
+  }
+
+}
+.navbrand{
+  margin-right:10rem;
+}
+.navbutton{
+  margin-right: 10rem:
 }
 .navbar-brand{
 	margin: 0 0 0 20px;
@@ -125,6 +145,12 @@ nav a:focus {
 	text-align: center;
 }
 
+
+
+.icon-bar{
+  color: aliceblue;
+}
+
 /*===== Navbar hovereffect end ====== */
 
 
@@ -158,7 +184,7 @@ nav a:focus {
 }
 .card-img-top{
   position: relative;
- 
+ margin: 20px 5px 0 0;
   height: 250px;
   width: 200px;
 }
