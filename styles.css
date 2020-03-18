@@ -21,10 +21,27 @@ h1,h2,h3,h4,h5,h6{
 #facilities{
   margin-top: 200px;
 }
+.heading-div{
+  z-index: 2;
+  margin-top: 180px;
+}
+.heading-div .btn-primary{
+  background: aliceblue;
+  font-weight: 600;
+  border-radius: 1.5rem;
+  border: none;
+  width: 120px;
+  margin-top: 20px;
+  color: #000;
+}
+.heading-div .btn-primary:hover{
+  background: #216353;
+  color:aliceblue;
+}
 
 .midcontainer{
   padding: 10px 0 50px 0;
-  background-color: #e89980;
+  background-color:  #e89980;
   height: 200px;
 }
 #gallery{
@@ -77,6 +94,9 @@ h1,h2,h3,h4,h5,h6{
   }
   .anchor-tag{
     text-align: center;
+  }
+  #header{
+    align-items: center;
   }
 
 }
@@ -170,7 +190,7 @@ nav a:focus {
   position: absolute;
   text-align: center;
  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   color: #dee0d9;
   height: 700px;
   padding: 5%;
